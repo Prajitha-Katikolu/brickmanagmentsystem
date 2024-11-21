@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Production Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Brick Production Estimator</h1>
+
+<div class="form-container">
+    <label for="numBricks">Number of Bricks to Produce:</label>
+    <input type="number" id="numBricks" placeholder="Enter number of bricks"><br>
+
+    <label for="totalCost">Total Cost of Raw Materials and Labor (Rs):</label>
+    <input type="number" id="totalCost" placeholder="Enter total cost"><br>
+
+    <label for="sellingPrice">Selling Price per Brick (Rs):</label>
+    <input type="number" id="sellingPrice" placeholder="Enter selling price per brick"><br>
+
+    <label for="deadline">Deadline (in days):</label>
+    <input type="number" id="deadline" placeholder="Enter the deadline in days"><br>
+
+    <label for="laborOutput">Average Bricks Produced per Laborer per Day:</label>
+    <input type="number" id="laborOutput" placeholder="Enter bricks per laborer per day"><br>
+
+    <button onclick="calculate()">Calculate</button>
+</div>
+
+<div id="result" class="result-container"></div>
+
+<script src="script1.js"></script>
+
+</body>
+</html>
